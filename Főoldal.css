@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+   --primary-color: #d63031;
+   --secondary-color: #636e72;
+   --font: 'Poppins', sans-serif;
+}
 body{
-   background-image: url("fokep.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
- 
+   background: black;
+   font-family: var(--font);
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+nav{
+   position:fixed;
+   width: 100vw;
+   height: 60px;
+   border-top: .5rem solid var(--primary-color);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 999999;
+}
+#logo{
+   display: flex;
 }
