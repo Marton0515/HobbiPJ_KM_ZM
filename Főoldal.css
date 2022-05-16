@@ -121,3 +121,18 @@ ul a:hover{
 .card h2{
    text-transform: uppercase;
 }
+
+#ikon{
+   text-align: center;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   border-top: 2px solid white;
+   background-color: #636e72;
+   
+}
+
+.ikonok{
+   margin-left: 1%;
+   margin-right: 1%;
+   
+}
