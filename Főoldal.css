@@ -38,8 +38,13 @@ nav{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   z-index: 999999;
+   z-index: 2;
 }
+
+.nav_links {
+   transition: 0.2s;
+}
+
 .logo{
    display: flex;
    justify-content: center;
@@ -77,9 +82,10 @@ ul li{
 }
 ul a:hover{
    color: var(--primary-color)
+
 }
 .banner{
-   background: url(4kmangym.jpg);
+   background: url('4kmangym.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -138,7 +144,7 @@ ul a:hover{
 }
 footer{
    position: relative;
-   width:100%;
+   width: 100%;
    background-color: black;
    min-height: 100px;
    padding: 20px 50px;
@@ -205,3 +211,22 @@ footer .ikon li a:hover{
 
 }
 
+.Edzes{
+   text-decoration: none;
+   align-items: center;
+   color: black;
+}
+
+.Edzes a{
+   color: black;
+   transition: 0.3s;
+}
+
+.Edzes:hover a{
+   color: whitesmoke;
+}
+
+a:link{
+  text-decoration: none;
+
+}
