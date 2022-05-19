@@ -72,7 +72,7 @@ ul{
 }
 ul a{
    text-decoration: none;
-   color: white;
+   color:#d63031;
    margin: 0 2rem;
    text-transform: uppercase;
    font-family: var(--font);
@@ -87,7 +87,7 @@ ul a:hover{
    color: var(--primary-color)
 }
 .banner{
-   background: url(4kmangym.jpg);
+   background: url(Ralunk.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -96,9 +96,11 @@ ul a:hover{
 }
 .intro{
    position: absolute;
-   top: 30%;
-   left: 10%;
+   top: 40%;
+   left: 43%;
    color: white;
+   font-size: 200%;
+
 }
 .intro h2,p{
    display: block;
@@ -245,7 +247,7 @@ footer .ikon li a:hover{
 
 .center2{
 color: whitesmoke;
-margin-left: 700px;
+margin-left: 670px;
 
 }
 
@@ -273,10 +275,18 @@ resize: none;
 
 }
 
+.center3{
+   color:whitesmoke;
+   margin-left:38%;
+ 
 
-#background {
-   background-color: #d63031;
-   border:solid 3px black ;
 }
-
 	
+p.a{
+   color: whitesmoke;
+   padding: 25px;
+   margin-left:150px ;
+   margin-right: 150px;
+    
+
+}
