@@ -64,7 +64,7 @@ ul a:hover{
    color: var(--primary-color)
 }
 .banner{
-   background: url();
+   background: url(suly1.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -73,7 +73,7 @@ ul a:hover{
 }
 .intro{
    position: absolute;
-   top: 15%;
+   top: 10%;
    left: 7%;
    color: white;
 }
@@ -172,9 +172,12 @@ footer .ikon li a:hover{
 
 }
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+   font-family: arial, sans-serif;
+   
+   width: 100%;
+   border: 4px solid var(--primary-color);
+   padding: 10px;
+   border-radius: 50px 20px;
 }
   
 td, th {
@@ -182,6 +185,9 @@ td, th {
     padding: 8px;
     text-shadow: #d63031;
     color: black;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 8px
 }
   
 tr:nth-child(even) {
@@ -195,6 +201,13 @@ tr:nth-child(even) {
 .szurke{
     background-color: white;
 }
+
+.feketeara{
+   margin-left: 3%;
+   color: whitesmoke;
+   width: 800px;
+}
+
 .fekete{
    margin-left: 1%;
    color: whitesmoke;
@@ -202,14 +215,9 @@ tr:nth-child(even) {
 }
 
 hr{
-    width: 150px;
+    width: 180px;
 }
-.iga1{
-   margin-left: 9%;
-}
-.iga2{
-   margin-left: 6%;
-}
+
 .fekete1{
    margin-left: 1%;
    color: whitesmoke;
@@ -223,7 +231,7 @@ hr{
 .vfokep{
    float:right;
    position: fixed;
-   top: 0%;
-   right: 0%;
+   top: 10%;
+   right: 2%;
    z-index: -5;
 }
