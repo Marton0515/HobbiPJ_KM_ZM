@@ -84,7 +84,7 @@ ul li{
 
 }
 ul a:hover{
-   color: var(--primary-color)
+   color: white
 }
 .banner{
    background: url(Ralunk.jpg);
