@@ -247,7 +247,7 @@ footer .ikon li a:hover{
 
 .center2{
 color: whitesmoke;
-margin-left: 670px;
+margin-left: 870px;
 
 }
 
@@ -258,15 +258,24 @@ margin-left: 670px;
     margin-top: 50px;
 }
 
-.img{
+img.b{
   width: 3%;
   height: 3%;
 
 }
 
+
+img.a{
+width: 3%;
+height:3% ;
+
+
+}
+
+
 .center{
   color:whitesmoke;
-  margin-left:41.5%;
+  margin-left:42.5%;
 
 }
 
@@ -277,7 +286,8 @@ resize: none;
 
 .center3{
    color:whitesmoke;
-   margin-left:38%;
+   margin-left:39.1%;
+   font-size: 17px;
  
 
 }
@@ -285,8 +295,25 @@ resize: none;
 p.a{
    color: whitesmoke;
    padding: 25px;
-   margin-left:150px ;
-   margin-right: 150px;
+   margin-left:  200px;
+   margin-right: 200px;
+   font-size: 20px;
+   text-align: center;
     
+
+}
+
+p.b{
+   color: whitesmoke;
+   margin-left:900px ;
+
+
+
+}
+
+
+hr{
+   width: 3.75%;
+   margin-left: 900px;
 
 }
