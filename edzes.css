@@ -2,6 +2,8 @@
 :root{
    --primary-color: #d63031;
    --secondary-color: #636e72;
+   --blakk-color: #1b1a1ad8;
+   --blakk-color2:#1b1a1ae3;
    --font: 'Poppins', sans-serif;
 }
 .btn{
@@ -92,12 +94,14 @@ ul a:hover{
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   height: 85vh;
+   height: 150vh;
+
+   
 }
 .intro{
    position: absolute;
    top: 30%;
-   left: 10%;
+   
    color: white;
 }
 .intro h2,p{
@@ -124,12 +128,15 @@ ul a:hover{
  .card{
     text-align: center;
     padding: 1%;
+
+    border-radius: 45px  30px; 
     
  }
  .card p{
     text-align: center;
     margin-right: 5%;
     margin-left: 5%;
+
     
  
  }
@@ -212,3 +219,82 @@ ul a:hover{
     background-color: black;
  
  }
+
+
+ 
+
+ h2.a{
+   text-align: center;
+
+
+ }
+
+ img.b{
+    width: 70%;
+    border-radius: 35px 70px;
+   
+
+ }
+
+ img.c{
+   width: 75%;
+   border-radius: 35px 70px;
+  
+
+}
+
+img.d{
+  
+   width: 43.5%;
+   border-radius: 35px 70px;
+
+}
+
+
+h1.a{
+   text-align: center;
+   margin-right: 5%;
+    font-size: 50px;
+   padding: 10px;
+   text-transform: uppercase;
+   color: white;
+   background-color: var(--blakk-color2) ;
+   border-radius: 10px;
+   width: 33.3%;
+   margin: auto;
+   margin-left: 625px;
+  }
+
+hr{
+  border:3px solid white ;
+  width: 33%;
+  margin: auto;
+  margin-left:629.5px;
+  border-radius: 10px;
+}
+
+#igazítás{
+    margin-right: 100px;
+    
+}
+
+
+p.a{
+
+   text-align: center;
+   width: 80%;
+  
+
+
+}
+
+p.b{
+
+   text-align: center;
+   width: 80%;
+   margin-top: 50px;
+
+
+}
+
+
